@@ -1,0 +1,25 @@
+Feature_class	Feature_name	prompt_command
+surface_act	Assertion	An assertion
+surface_act	Request	A request
+surface_act	Question	A question
+dialogue_act	Offer	"An offer that involves trading of resources, and that is not in direct responde of another offer"
+dialogue_act	Counteroffer	An offer that involves trading of resources in response to another offer
+dialogue_act	Accept	Acceptance of an offer
+dialogue_act	Refusal	Refusal of an offer
+dialogue_act	Other	"Anything that isn't Offer, Counteroffer, Accept or Refusal"
+relation_type	Continuation	"The first input of two consequent inputs, without sequence of action "
+relation_type	Narration	The first input of two inputs which main eventualities occurr in sequence
+relation_type	Result	"It connects a cause to its effect, i.e., the main eventuality of the first input is understood to cause the eventuality given by the second"
+relation_type	Correction	A correction of a previous input
+relation_type	Elaboration	"Provision of information related to the previous text, from the same person"
+relation_type	Explanation	"Explanation of another text, that comes just previously or after"
+relation_type	Conditional	It marks the presence of a conditional
+relation_type	Alternation	It marks the presence of a disjunction between two clauses
+relation_type	Contrast	"When two inputs have similar semantic structures, but contrasting themes, i.e. sentence topics, or when one constituent negates a default consequence of the other"
+relation_type	Parallel	"When two inputs and have similar semantic structures, and share a common theme, i.e. sentence topics"
+relation_type	Question_answer_pair	"A question or answer, that is linked to an instance of the other kind"
+relation_type	Commentary	Opinion or evaluation of another input
+relation_type	Q_elab	A question asked to get more information in order to answer a previous question
+relation_type	Clarification_Q	A question to clarify something unclear
+relation_type	Acknowledgement	Acknoledgement of another input
+relation_type	Background	It provides some stage setting for the input hat happens just before or after
